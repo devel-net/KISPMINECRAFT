@@ -1,0 +1,72 @@
+[09:51:07] [main/INFO] [FML/]: Forge Mod Loader version 7.99.4.1614 for Minecraft 1.7.10 loading
+[09:51:08] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_292, running on Linux:amd64:2.6.32-042stab145.3, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[09:51:08] [main/INFO] [STDERR/]: [pw.prok.imagine.ImagineLoadingPlugin:<clinit>:26]: Loading plugin initialized!
+[09:51:11] [main/INFO] [STDERR/]: [codechicken.core.launch.DepLoader$DepLoadInst:checkExisting:436]: Warning: version of CodeChickenLib, 1.1.3.140 is newer than request 1.1.3.138
+[09:51:11] [main/WARN] [FML/]: The following coremods do not have a @MCVersion annotation. They may cause problems if this is not the correct version of Minecraft for them.
+[09:51:11] [main/WARN] [FML/]: Missing @MCVersion: codechicken.core.launch.CodeChickenCorePlugin  codechicken.nei.asm.NEICorePlugin  
+[09:51:11] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:51:11] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:51:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:51:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[09:51:11] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:51:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:51:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:51:12] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:51:13] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:51:13] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[09:51:13] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[09:51:14] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[09:51:14] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[09:51:14] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[09:51:17] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[09:51:17] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1614 Initialized
+[09:51:17] [Server thread/INFO] [FML/]: Replaced 184 ore recipies
+[09:51:17] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[09:51:17] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[09:51:17] [Server thread/INFO] [FML/]: Searching /Launcher/HiTech/mods for mods
+[09:51:17] [Server thread/INFO] [FML/]: Also searching /Launcher/HiTech/mods/1.7.10 for mods
+[09:51:18] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 6 mods to load
+[09:51:18] [Server thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.140-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[09:51:18] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, CodeChickenCore, NotEnoughItems] at CLIENT
+[09:51:18] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, kimagine, CodeChickenCore, NotEnoughItems] at SERVER
+[09:51:19] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[09:51:19] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[09:51:19] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[09:51:19] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[09:51:19] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[09:51:19] [Server thread/INFO] [FML/]: Applying holder lookups
+[09:51:19] [Server thread/INFO] [FML/]: Holder lookups applied
+[09:51:19] [Server thread/INFO] [FML/]: Injecting itemstacks
+[09:51:19] [Server thread/INFO] [FML/]: Itemstack injection complete
+[09:51:19] [Forge Version Check/WARN] [/Forge]: com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.Gson.fromJson(Gson.java:815)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.Gson.fromJson(Gson.java:768)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.Gson.fromJson(Gson.java:717)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.Gson.fromJson(Gson.java:689)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at net.minecraftforge.common.ForgeVersion$1.run(ForgeVersion.java:94)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:374)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	at com.google.gson.Gson.fromJson(Gson.java:803)
+[09:51:19] [Forge Version Check/WARN] [/Forge]: 	... 4 more
+[09:51:20] [Server thread/INFO] [Minecraft/]: This server is running Cauldron version 1.7.10-1614.58 (MC: 1.7.10) (Implementing API version 1.7.10-R0.1-SNAPSHOT)
+[09:51:20] [Server thread/INFO] [/]: Server Ping Player Sample Count: 12
+[09:51:20] [Server thread/INFO] [Minecraft/]: Using 2 threads for Netty based IO
+[09:51:20] [Server thread/INFO] [FML/]: Injecting itemstacks
+[09:51:20] [Server thread/INFO] [FML/]: Itemstack injection complete
+[09:51:21] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 6 mods
+[09:51:21] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[09:51:21] [Server thread/INFO] [FML/]: Applying holder lookups
+[09:51:21] [Server thread/INFO] [FML/]: Holder lookups applied
+[09:51:22] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@511b9d65)
+[09:51:22] [Server thread/INFO] [FML/]: Loading dimension 1 (DIM1) (net.minecraft.server.dedicated.DedicatedServer@511b9d65)
+[09:51:22] [Server thread/INFO] [FML/]: Loading dimension -1 (DIM-1) (net.minecraft.server.dedicated.DedicatedServer@511b9d65)
+[09:51:23] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[09:51:24] [Server thread/INFO] [/]: Hey, you don't have a server icon! Try out one of Thermos' Icon Generators at https://github.com/CyberdyneCC/ThermosIconGenerators !
+[09:51:25] [Thermos version retriever/INFO] [/]: New version of Thermos available: 1.7.10-1614.57[m
+[09:51:25] [Thermos version retriever/INFO] [/]: Download at: https://github.com/CyberdyneCC/Thermos/releases[m
+[09:51:37] [Netty IO #0/INFO] [FML/]: Client protocol version 2
+[09:51:37] [Netty IO #0/INFO] [FML/]: Client attempting to join with 5 mods : CodeChickenCore@1.0.7.47,NotEnoughItems@1.0.5.118,FML@7.10.99.99,Forge@10.13.4.1614,mcp@9.05
+[09:51:37] [Netty IO #0/INFO] [FML/]: Attempting connection with missing mods [kimagine] at CLIENT
+[09:51:37] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
